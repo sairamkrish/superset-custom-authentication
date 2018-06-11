@@ -1,7 +1,7 @@
-To run superset as docker:
+Apache Superset Custom Authentication
 ---
 
-This repository uses [Dockerized superset](https://hub.docker.com/r/amancevice/superset/). 
+Apache Superset is an amazing open source platform. This repository provides reference implementations to help customize Superset's Authentication flow.
 
 ## Pre-requisites
 
@@ -9,7 +9,7 @@ This repository uses [Dockerized superset](https://hub.docker.com/r/amancevice/s
 
 ## First time
 
-Let's download the docker image, create a container and start the container.
+Let's download the [superset docker image](https://hub.docker.com/r/amancevice/superset/), create a container and start the container.
 
 `sh run-docker.sh` - contains the required commands to get you started
 
