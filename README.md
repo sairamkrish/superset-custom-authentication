@@ -34,3 +34,19 @@ view logs:
 
 load examples:
 `docker exec -it superset superset load_examples`
+
+## Upgrading docker images
+
+```
+# Pull desired version
+docker pull amancevice/superset
+
+# Remove the current container
+docker rm -f superset-old
+
+# Deploy a new container ...
+docker run --detach --name superset-new [options] amancevice/superset
+
+# Upgrade the DB
+docker exec superset-new superset db upgrade
+```

@@ -1,4 +1,4 @@
-from flask import redirect, g, flash
+from flask import redirect, g, flash, request
 from flask_appbuilder.security.views import UserDBModelView,AuthDBView
 from superset.security import SupersetSecurityManager
 from flask_appbuilder.security.views import expose
@@ -14,11 +14,14 @@ class CustomAuthDBView(AuthDBView):
         if g.user is not None and g.user.is_authenticated():
             return redirect(self.appbuilder.get_url_for_index)
         
-        #temp flow - auto login admin
-        user = self.appbuilder.sm.find_user(username='admin')
-        flash('**** Admin auto logged in ****** ', 'warning')
-        login_user(user, remember=False)
-        return redirect(self.appbuilder.get_url_for_index)
+        if request.args.get('username') is not None:
+            user = self.appbuilder.sm.find_user(username=request.args.get('username'))
+            flash('Admin auto logged in', 'success')
+            login_user(user, remember=False)
+            return redirect(self.appbuilder.get_url_for_index)
+        else:
+            flash('Unable to auto login', 'warning')
+            return super(CustomAuthDBView,self).login()
 
 class CustomSecurityManager(SupersetSecurityManager):
     authdbview = CustomAuthDBView
