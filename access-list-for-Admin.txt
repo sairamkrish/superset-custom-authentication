@@ -1,0 +1,292 @@
+Admin
+---------
+
+can this form post on ResetPasswordView
+can this form get on ResetPasswordView
+can this form post on ResetMyPasswordView
+can this form get on ResetMyPasswordView
+can this form post on UserInfoEditView
+can this form get on UserInfoEditView
+can userinfo on UserDBModelView
+can add on UserDBModelView
+can list on UserDBModelView
+can edit on UserDBModelView
+can delete on UserDBModelView
+can download on UserDBModelView
+can show on UserDBModelView
+resetmypassword on UserDBModelView
+resetpasswords on UserDBModelView
+userinfoedit on UserDBModelView
+menu access on List Users
+menu access on Security
+can add on RoleModelView
+can list on RoleModelView
+can edit on RoleModelView
+can delete on RoleModelView
+can download on RoleModelView
+can show on RoleModelView
+Copy Role on RoleModelView
+menu access on List Roles
+can chart on UserStatsChartView
+menu access on User's Statistics
+can list on PermissionModelView
+menu access on Base Permissions
+can list on ViewMenuModelView
+menu access on Views/Menus
+can list on PermissionViewModelView
+menu access on Permission on Views/Menus
+menu access on Import Dashboards
+menu access on Manage
+can add on DatabaseView
+can list on DatabaseView
+can edit on DatabaseView
+can delete on DatabaseView
+can download on DatabaseView
+can show on DatabaseView
+muldelete on DatabaseView
+yaml export on DatabaseView
+menu access on Databases
+menu access on Sources
+can add on DatabaseAsync
+can list on DatabaseAsync
+can edit on DatabaseAsync
+can delete on DatabaseAsync
+can download on DatabaseAsync
+can show on DatabaseAsync
+muldelete on DatabaseAsync
+yaml export on DatabaseAsync
+can this form post on CsvToDatabaseView
+can this form get on CsvToDatabaseView
+can add on DatabaseTablesAsync
+can list on DatabaseTablesAsync
+can edit on DatabaseTablesAsync
+can delete on DatabaseTablesAsync
+can download on DatabaseTablesAsync
+can show on DatabaseTablesAsync
+muldelete on DatabaseTablesAsync
+yaml export on DatabaseTablesAsync
+can add on SliceModelView
+can list on SliceModelView
+can edit on SliceModelView
+can delete on SliceModelView
+can download on SliceModelView
+can show on SliceModelView
+muldelete on SliceModelView
+menu access on Charts
+can add on SliceAsync
+can list on SliceAsync
+can edit on SliceAsync
+can delete on SliceAsync
+can download on SliceAsync
+can show on SliceAsync
+muldelete on SliceAsync
+can add on SliceAddView
+can list on SliceAddView
+can edit on SliceAddView
+can delete on SliceAddView
+can download on SliceAddView
+can show on SliceAddView
+muldelete on SliceAddView
+can add on DashboardModelView
+can list on DashboardModelView
+can edit on DashboardModelView
+can delete on DashboardModelView
+can download on DashboardModelView
+can show on DashboardModelView
+muldelete on DashboardModelView
+mulexport on DashboardModelView
+menu access on Dashboards
+can add on DashboardModelViewAsync
+can list on DashboardModelViewAsync
+can edit on DashboardModelViewAsync
+can delete on DashboardModelViewAsync
+can download on DashboardModelViewAsync
+can show on DashboardModelViewAsync
+muldelete on DashboardModelViewAsync
+mulexport on DashboardModelViewAsync
+can add on DashboardAddView
+can list on DashboardAddView
+can edit on DashboardAddView
+can delete on DashboardAddView
+can download on DashboardAddView
+can show on DashboardAddView
+muldelete on DashboardAddView
+mulexport on DashboardAddView
+can add on LogModelView
+can list on LogModelView
+can edit on LogModelView
+can delete on LogModelView
+can download on LogModelView
+can show on LogModelView
+menu access on Action Log
+can save dash on Superset
+can schemas on Superset
+can filter on Superset
+can table on Superset
+can explorev2 on Superset
+can extra table metadata on Superset
+can search queries on Superset
+can profile on Superset
+can fave slices on Superset
+can testconn on Superset
+can checkbox on Superset
+can explore json on Superset
+can created dashboards on Superset
+can sync druid source on Superset
+can sqllab on Superset
+can select star on Superset
+can csv on Superset
+can slice on Superset
+can annotation json on Superset
+can dashboard on Superset
+can csrf token on Superset
+can cache key exist on Superset
+can import dashboards on Superset
+can request access on Superset
+can fave dashboards on Superset
+can explore on Superset
+can created slices on Superset
+can override role permissions on Superset
+can fave dashboards by username on Superset
+can results on Superset
+can approve on Superset
+can slice json on Superset
+can warm up cache on Superset
+can tables on Superset
+can sqllab viz on Superset
+can user slices on Superset
+can sliceQuery on Superset
+can cached key on Superset
+can stop query on Superset
+can recent activity on Superset
+can fetch datasource metadata on Superset
+can add slices on Superset
+can datasources on Superset
+can sql json on Superset
+can copy dash on Superset
+can add on CssTemplateModelView
+can list on CssTemplateModelView
+can edit on CssTemplateModelView
+can delete on CssTemplateModelView
+can download on CssTemplateModelView
+can show on CssTemplateModelView
+muldelete on CssTemplateModelView
+menu access on CSS Templates
+can add on CssTemplateAsyncModelView
+can list on CssTemplateAsyncModelView
+can edit on CssTemplateAsyncModelView
+can delete on CssTemplateAsyncModelView
+can download on CssTemplateAsyncModelView
+can show on CssTemplateAsyncModelView
+muldelete on CssTemplateAsyncModelView
+menu access on SQL Editor
+menu access on SQL Lab
+menu access on Query Search
+menu access on Upload a CSV
+can add on QueryView
+can list on QueryView
+can edit on QueryView
+can delete on QueryView
+can download on QueryView
+can show on QueryView
+menu access on Queries
+can add on SavedQueryViewApi
+can list on SavedQueryViewApi
+can edit on SavedQueryViewApi
+can delete on SavedQueryViewApi
+can download on SavedQueryViewApi
+can show on SavedQueryViewApi
+muldelete on SavedQueryViewApi
+can add on SavedQueryView
+can list on SavedQueryView
+can edit on SavedQueryView
+can delete on SavedQueryView
+can download on SavedQueryView
+can show on SavedQueryView
+muldelete on SavedQueryView
+menu access on Saved Queries
+can add on AnnotationLayerModelView
+can list on AnnotationLayerModelView
+can edit on AnnotationLayerModelView
+can delete on AnnotationLayerModelView
+can download on AnnotationLayerModelView
+can show on AnnotationLayerModelView
+muldelete on AnnotationLayerModelView
+menu access on Annotation Layers
+can add on AnnotationModelView
+can list on AnnotationModelView
+can edit on AnnotationModelView
+can delete on AnnotationModelView
+can download on AnnotationModelView
+can show on AnnotationModelView
+muldelete on AnnotationModelView
+menu access on Annotations
+can add on TableColumnInlineView
+can list on TableColumnInlineView
+can edit on TableColumnInlineView
+can delete on TableColumnInlineView
+can download on TableColumnInlineView
+can show on TableColumnInlineView
+can add on SqlMetricInlineView
+can list on SqlMetricInlineView
+can edit on SqlMetricInlineView
+can delete on SqlMetricInlineView
+can download on SqlMetricInlineView
+can show on SqlMetricInlineView
+can add on TableModelView
+can list on TableModelView
+can edit on TableModelView
+can delete on TableModelView
+can download on TableModelView
+can show on TableModelView
+muldelete on TableModelView
+refresh on TableModelView
+yaml export on TableModelView
+menu access on Tables
+can add on DruidColumnInlineView
+can list on DruidColumnInlineView
+can edit on DruidColumnInlineView
+can delete on DruidColumnInlineView
+can download on DruidColumnInlineView
+can show on DruidColumnInlineView
+can add on DruidMetricInlineView
+can list on DruidMetricInlineView
+can edit on DruidMetricInlineView
+can delete on DruidMetricInlineView
+can download on DruidMetricInlineView
+can show on DruidMetricInlineView
+can add on DruidClusterModelView
+can list on DruidClusterModelView
+can edit on DruidClusterModelView
+can delete on DruidClusterModelView
+can download on DruidClusterModelView
+can show on DruidClusterModelView
+muldelete on DruidClusterModelView
+yaml export on DruidClusterModelView
+menu access on Druid Clusters
+can add on DruidDatasourceModelView
+can list on DruidDatasourceModelView
+can edit on DruidDatasourceModelView
+can delete on DruidDatasourceModelView
+can download on DruidDatasourceModelView
+can show on DruidDatasourceModelView
+muldelete on DruidDatasourceModelView
+yaml export on DruidDatasourceModelView
+menu access on Druid Datasources
+can refresh datasources on Druid
+can scan new datasources on Druid
+menu access on Scan New Datasources
+menu access on Refresh Druid Metadata
+all datasource access on all_datasource_access
+all database access on all_database_access
+can add on UserRemoteUserModelView
+can userinfo on UserRemoteUserModelView
+can delete on UserRemoteUserModelView
+can download on UserRemoteUserModelView
+can show on UserRemoteUserModelView
+can edit on UserRemoteUserModelView
+can list on UserRemoteUserModelView
+userinfoedit on UserRemoteUserModelView
+can list on RegisterUserModelView
+can show on RegisterUserModelView
+can delete on RegisterUserModelView
