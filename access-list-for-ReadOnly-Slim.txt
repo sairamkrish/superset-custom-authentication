@@ -1,0 +1,70 @@
+can this form get on ResetMyPasswordView
+can this form post on ResetMyPasswordView
+can this form get on UserInfoEditView
+can this form post on UserInfoEditView
+can chart on UserStatsChartView
+menu access on User's Statistics
+can list on PermissionModelView
+can list on ViewMenuModelView
+can list on PermissionViewModelView
+menu access on Permission on Views/Menus
+menu access on Import Dashboards
+can show on DatabaseAsync
+can list on DatabaseAsync
+can this form get on CsvToDatabaseView
+can this form post on CsvToDatabaseView
+can download on DatabaseTablesAsync
+can add on DatabaseTablesAsync
+can show on DatabaseTablesAsync
+can list on DatabaseTablesAsync
+yaml export on DatabaseTablesAsync
+can download on SliceModelView
+can add on SliceModelView
+can show on SliceModelView
+can list on SliceModelView
+can download on SliceAsync
+can show on SliceAsync
+can list on SliceAsync
+can download on SliceAddView
+can add on SliceAddView
+can show on SliceAddView
+can list on SliceAddView
+can download on DashboardModelView
+can add on DashboardModelView
+can show on DashboardModelView
+can list on DashboardModelView
+mulexport on DashboardModelView
+can download on DashboardModelViewAsync
+can show on DashboardModelViewAsync
+can list on DashboardModelViewAsync
+mulexport on DashboardModelViewAsync
+can download on DashboardAddView
+can user slices on Superset
+can profile on Superset
+can request access on Superset
+can explore json on Superset
+can cached key on Superset
+can cache key exist on Superset
+can table on Superset
+can fetch datasource metadata on Superset
+can schemas on Superset
+can filter on Superset
+can add slices on Superset
+can results on Superset
+can fave dashboards on Superset
+can slice on Superset
+can extra table metadata on Superset
+can save dash on Superset
+can select star on Superset
+can slice json on Superset
+can dashboard on Superset
+can warm up cache on Superset
+can fave slices on Superset
+can tables on Superset
+can sliceQuery on Superset
+can csv on Superset
+can explorev2 on Superset
+can checkbox on Superset
+can fave dashboards by username on Superset
+can created dashboards on Superset
+can show on TableColumnInlineView
